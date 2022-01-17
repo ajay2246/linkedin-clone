@@ -23,7 +23,7 @@ function Post(props){
                     </div>
                 </div>
             </div>
-            <img src="https://media-exp1.licdn.com/dms/image/C5622AQGtNjNqMrV8mA/feedshare-shrink_800/0/1638858659966?e=1642032000&v=beta&t=OqrBg2o_8Z5Nnu-J-j2uh7x4LI9l7aMVvzpKdZ_uSKA" alt="" height="500px" width="400px" padding="20px"/>
+            <img src="https://st3.depositphotos.com/1017228/19306/i/950/depositphotos_193064304-stock-photo-full-length-photo-of-handsome.jpg" alt="" height="500px" width="400px" padding="20px"/>
             {
                 like===false?(
                     <div style={{paddingLeft:"20px"}}>{props.likes} has liked the post</div>
@@ -35,8 +35,8 @@ function Post(props){
                 <div style={{color: like?"blue":"black"}} onClick={()=>{
                     setLike(!like);
                 }}>like</div>
-                <div>share</div>
-                <div stylr={{flex:1}}>send</div>
+                <div style={{paddingLeft:"8px"}}>share</div>
+                <div style={{flex:1,paddingLeft:"8px"}}>send</div>
                 <div>comment</div>
             </div>
         </div>
